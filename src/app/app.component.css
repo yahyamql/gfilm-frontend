@@ -1,0 +1,16 @@
+/* Structure */
+section {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+
+#trier-btn {
+    margin-left: 10px;
+}
+
+mat-form-field{
+    width: 60%;
+}
+  

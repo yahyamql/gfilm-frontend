@@ -1,0 +1,18 @@
+<div>
+    <h2>Ajouter un nouveau film</h2>
+
+    <mat-form-field>
+      <input matInput placeholder="Titre principal" [(ngModel)]="film.primaryTitle">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <input matInput placeholder="Titre original" [(ngModel)]="film.originalTitle">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <input matInput type="number" placeholder="Start Year" [(ngModel)]="film.startYear">
+    </mat-form-field>
+  
+    <button mat-button (click)="onAdd()" mat-raised-button color="primary" >Ajouter</button>
+    <button mat-button (click)="onCancel()" mat-raised-button color="warn">Annuler</button>
+</div>
