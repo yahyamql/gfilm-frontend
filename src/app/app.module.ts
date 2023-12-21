@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { HttpClientModule } from '@angular/common/http';
 import { AjoutFilmComponent } from './ajout-film/ajout-film.component';
 import { FormsModule } from '@angular/forms';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     MatGridListModule,
     MatButtonModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatToolbarModule
     
   ],
   providers: [],
